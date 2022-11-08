@@ -10,14 +10,14 @@ if (
     empty($post->getPost('passwd')) || empty($post->getPost('login')) ||
     !exists($post->getPost('login'))
 ) {
-    header('Location: index_.html');
+    header('Location: index.html');
     exit;
 } else {
 
     $user = new User(getUser($post->getPost('login')));
 
     if ($user->getPasswd() !== $post->getPost('passwd')) {
-        header('Location: index_.html');
+        header('Location: index.html');
         exit;
     }
     $session->setSession('user', $user);

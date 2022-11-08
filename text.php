@@ -7,7 +7,7 @@ $session = new Session();
 $post = new Post();
 
 if ($session->getSession('user') === "") {
-    header('Location: index_.html');
+    header('Location: index.html');
     exit;
 } else {
 ?>
