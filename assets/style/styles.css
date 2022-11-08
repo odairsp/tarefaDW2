@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main, header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: min-content;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+h1 {
+    color: white;
+    width: 100%;
+    margin: 0px 0 10px 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(85, 190, 141);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    text-shadow: 1px 1px 5px black;
+}
+
+form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+
+label {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+input {
+    padding-left: 20px;
+    border: 1px solid rgb(85, 190, 141);
+    border-radius: 50px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    height: 30px;
+    box-shadow: 1px 1px 2px gray;
+}
+
+.botao {
+    color: white;
+    background-color: rgb(85, 190, 141);
+    width: 80%;
+    height: 35px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font-size: 16px;
+    box-shadow: 1px 2px 5px black;
+    text-shadow: 1px 1px 5px black;
+    align-self: center;
+    text-align: center;
+    padding: 0;
+
+}
+
+.botao:hover {
+    background-color: rgb(74, 138, 93);
+    box-shadow: 0px 1px 2px black;
+    text-shadow: 0px -1px 2px black;
+
+
+}
+
+.titulo {
+    background-image: url('https://st4.depositphotos.com/1016729/21903/i/1600/depositphotos_219036182-free-stock-photo-old-weathered-painted-blue-plastered.jpg');
+    text-shadow: 1px 1px 3px black;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    width: 70%;
+    text-align: center;
+    border: 1px solid rgb(85, 190, 141);
+    padding: 10px;
+    text-transform: none;
+}
+
+.textoFinal {
+    margin-top: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    justify-items: center;
+    align-items: center;
+
+}
+
+textarea {
+    resize: none;
+}
+
+span {
+    width: 100%;
+    padding-right: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: right;
+    text-transform: capitalize;
+
+
+}
