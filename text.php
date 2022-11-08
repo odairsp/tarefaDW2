@@ -31,7 +31,7 @@ if ($session->getSession('user') === "") {
                 </q>
             </blockquote>
             <span><?php echo $post->getPost('autor') ?></span>
-            <form style="margin-top: 0px;" action="./index_.html">
+            <form style="margin-top: 0px;" action="./index.html">
                 <button style="width: 40%;" class="botao" type="submit">Inicio</button>
             </form>
         </main>
