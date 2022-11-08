@@ -56,7 +56,7 @@ $users = [
         ]
     ],
     [
-        'name' => "Maria",
+        'name' => "Simone",
         'lastName' => 'Rita',
         'image' => 'maria.jpg',
         'genre' => 'F',
