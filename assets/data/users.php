@@ -58,11 +58,11 @@ $users = [
     [
         'name' => "Simone",
         'lastName' => 'Rita',
-        'image' => 'maria.jpg',
+        'image' => 'simone.jpg',
         'genre' => 'F',
         'cpf' => "12342874569",
         'rg' => "254178658",
-        'email' => 'maria@email',
+        'email' => 'simone@email',
         'address' =>
         [
             'street' => 'rua de terra',
